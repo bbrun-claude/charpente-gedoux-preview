@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Christian Gedoux & Fils — Couverture, Charpente & Zinguerie à Allogny (18)</title>
+<meta name="description" content="Gedoux & Fils : couverture, charpente et zinguerie depuis 1989 à Allogny dans le Cher. Artisan de confiance pour vos toitures.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--brun:#7b341e;--brun-clair:#fffaf0;--terre:#c05621;--gris:#4a5568;--blanc:#ffffff;--sable:#fefcbf}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:#2d3748;line-height:1.6}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+
+header{background:var(--brun);color:var(--blanc);padding:18px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+header .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.logo{font-size:1.4rem;font-weight:700;letter-spacing:.5px}
+.logo span{color:#fbd38d}
+.logo small{display:block;font-size:.75rem;font-weight:400;opacity:.8;letter-spacing:1px}
+nav a{color:var(--blanc);text-decoration:none;margin-left:24px;font-size:.95rem;opacity:.9;transition:opacity .2s}
+nav a:hover{opacity:1;text-decoration:underline}
+
+.hero{background:linear-gradient(135deg,#7b341e 0%,#9c4221 50%,#c05621 100%);color:var(--blanc);padding:80px 0 70px;text-align:center}
+.hero h1{font-size:2.3rem;margin-bottom:16px;line-height:1.2}
+.hero p{font-size:1.15rem;opacity:.9;max-width:650px;margin:0 auto 12px}
+.hero .since{font-size:1rem;opacity:.7;margin-bottom:28px}
+.btn{display:inline-block;padding:14px 32px;border-radius:6px;text-decoration:none;font-weight:600;font-size:1rem;transition:transform .2s,box-shadow .2s}
+.btn-blanc{background:var(--blanc);color:var(--brun)}
+.btn-blanc:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.2)}
+
+section{padding:60px 0}
+section:nth-child(even){background:var(--brun-clair)}
+.section-title{text-align:center;font-size:1.8rem;color:var(--brun);margin-bottom:12px}
+.section-subtitle{text-align:center;color:var(--gris);margin-bottom:40px;max-width:600px;margin-left:auto;margin-right:auto}
+
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.service-card{background:var(--blanc);border-radius:10px;padding:32px 24px;box-shadow:0 2px 12px rgba(0,0,0,.06);border-top:4px solid var(--terre);transition:transform .2s}
+.service-card:hover{transform:translateY(-4px)}
+.service-card h3{color:var(--brun);margin-bottom:8px;font-size:1.15rem}
+.service-card p{color:var(--gris);font-size:.95rem}
+
+.atouts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:30px}
+.atout{text-align:center;padding:24px 16px;background:var(--blanc);border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.atout-num{font-size:2.2rem;font-weight:800;color:var(--terre);margin-bottom:4px}
+.atout-label{color:var(--gris);font-size:.95rem}
+
+.zone{background:var(--sable);border-radius:10px;padding:30px;text-align:center;border:2px solid #ecc94b}
+.zone h3{color:var(--brun);margin-bottom:10px}
+.zone p{color:var(--gris)}
+
+.contact-section{background:var(--brun);color:var(--blanc);padding:60px 0}
+.contact-section .section-title{color:var(--blanc)}
+.contact-section .section-subtitle{color:rgba(255,255,255,.8)}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px;margin-top:20px}
+.contact-item{text-align:center;padding:20px}
+.contact-item h3{margin-bottom:8px;font-size:1.1rem}
+.contact-item p{opacity:.85}
+.contact-item a{color:#fbd38d;text-decoration:none}
+.contact-item a:hover{text-decoration:underline}
+
+footer{background:#652b19;color:rgba(255,255,255,.7);text-align:center;padding:24px 0;font-size:.85rem}
+
+@media(max-width:768px){
+.hero h1{font-size:1.7rem}
+.hero{padding:50px 0 40px}
+nav{display:flex;gap:12px;flex-wrap:wrap}
+nav a{margin-left:0}
+header .container{flex-direction:column;text-align:center}
+section{padding:40px 0}
+.section-title{font-size:1.5rem}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+<div class="logo">Gedoux <span>& Fils</span><small>COUVERTURE &bull; CHARPENTE &bull; ZINGUERIE</small></div>
+<nav>
+<a href="#services">Services</a>
+<a href="#entreprise">L'entreprise</a>
+<a href="#zone">Zone</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<h1>Couverture, Charpente & Zinguerie</h1>
+<p>Artisans couvreurs dans le Cher depuis plus de 35 ans. Toitures neuves, rénovation et entretien pour particuliers et professionnels.</p>
+<p class="since">Depuis 1989 — Allogny (18)</p>
+<a href="#contact" class="btn btn-blanc">Demander un devis gratuit</a>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+<h2 class="section-title">Nos savoir-faire</h2>
+<p class="section-subtitle">Des prestations complètes pour la protection et l'embellissement de votre toiture</p>
+<div class="services-grid">
+<div class="service-card">
+<h3>Couverture</h3>
+<p>Pose et rénovation de couvertures en tuiles, ardoises et matériaux modernes. Étanchéité garantie, finitions soignées pour une toiture durable.</p>
+</div>
+<div class="service-card">
+<h3>Charpente</h3>
+<p>Création, réparation et renforcement de charpentes traditionnelles et industrielles. Traitement préventif et curatif du bois.</p>
+</div>
+<div class="service-card">
+<h3>Zinguerie</h3>
+<p>Gouttières, descentes d'eaux pluviales, solins et abergements en zinc. Raccords et habillages sur mesure pour une évacuation parfaite.</p>
+</div>
+<div class="service-card">
+<h3>Rénovation & entretien</h3>
+<p>Démoussage, nettoyage de toiture, remplacement de tuiles cassées, réparation de fuites. Intervention rapide sur tout le département.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="entreprise">
+<div class="container">
+<h2 class="section-title">Une entreprise familiale</h2>
+<p class="section-subtitle">Christian Gedoux & Fils perpétue un savoir-faire artisanal transmis de génération en génération</p>
+<div class="atouts-grid">
+<div class="atout">
+<div class="atout-num">1989</div>
+<div class="atout-label">Année de création</div>
+</div>
+<div class="atout">
+<div class="atout-num">35+</div>
+<div class="atout-label">Années d'expérience</div>
+</div>
+<div class="atout">
+<div class="atout-num">18</div>
+<div class="atout-label">Département du Cher</div>
+</div>
+<div class="atout">
+<div class="atout-num">3</div>
+<div class="atout-label">Métiers maîtrisés</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="zone">
+<div class="container">
+<div class="zone">
+<h3>Zone d'intervention</h3>
+<p>Allogny et tout le département du Cher : Bourges, Vierzon, Saint-Amand-Montrond, Mehun-sur-Yèvre, Saint-Doulchard, Trouy, Berry-Bouy, Marmagne, Saint-Martin-d'Auxigny et communes environnantes. Déplacement gratuit pour l'établissement des devis.</p>
+</div>
+</div>
+</section>
+
+<section class="contact-section" id="contact">
+<div class="container">
+<h2 class="section-title">Contactez-nous</h2>
+<p class="section-subtitle">Devis gratuit et sans engagement pour tous vos travaux de toiture</p>
+<div class="contact-grid">
+<div class="contact-item">
+<h3>Téléphone</h3>
+<p><a href="tel:0248640302">02 48 64 03 02</a></p>
+</div>
+<div class="contact-item">
+<h3>Email</h3>
+<p><a href="mailto:charpentegedoux@gmail.com">charpentegedoux@gmail.com</a></p>
+</div>
+<div class="contact-item">
+<h3>Adresse</h3>
+<p>19 rue des Rois<br>ZA Terrageaux<br>18110 Allogny</p>
+</div>
+<div class="contact-item">
+<h3>Horaires</h3>
+<p>Lundi — Vendredi<br>7h30 — 18h00</p>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>&copy; 2026 Christian Gedoux & Fils — Couverture, Charpente & Zinguerie — Allogny (18) — SIREN 350573937</p>
+</div>
+</footer>
+
+</body>
+</html>
